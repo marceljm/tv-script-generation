@@ -1,0 +1,10 @@
+# getting started
+
+cd myproject/
+git init
+git add *
+git status
+git commit -m "This is my first commit!"
+<create a new repository on GitHub>
+git remote add origin https://github.com/marceljm/matplotlib.git
+git push -u origin master

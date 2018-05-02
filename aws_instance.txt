@@ -1,0 +1,8 @@
+# create the config file at client side, otherwise your connection will be finished every 5 minutes
+cd ~/.ssh
+touch config
+
+# config content:
+Host *
+  ServerAliveInterval 30
+  ServerAliveCountMax 5
